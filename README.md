@@ -92,6 +92,56 @@ baekjoon/
 
 # Commit 방법
 
+```
+git clone https://github.com/BCAA-Algorithm-Study/algorithm-study.git
+```
+- 먼저 원격 저장소로부터 로컬로 클론을 받습니다.
+
+```
+git branch -a
+```
+- 현재 head가 있는 branch가 main인지 확인합니다. 
+
+```
+cd ./algorithm-study/baekjoon
+```
+- 백준 폴더로 들어갑니다.
+
+```
+ls 
+```
+- 풀고자 하는 문제 폴더를 확인합니다. # 1417
+
+```
+cd 1417
+```
+- 해당 문제 폴더로 들어갑니다.
+
+```
+mkdir kjy
+```
+- 본인의 이니셜 폴더를 생성합니다.
+
+```
+git branch kjy_baekjoon_1417
+```
+- 브랜치를 새로 생성합니다.
+- 1417.py에 소스파일을 작성하고, solution.md 파일에 상세한 풀이과정을 적습니다.
+
+```
+git add *
+```
+- staging area에 모든 파일을 올립니다.
+
+```
+git commit -m "my first commit"
+```
+- staging area에 있는 모든 파일을 commit합니다.
+
+```
+git push origin kjy_baekjoon_1417
+```
+- 원격 저장소에 push합니다.
 
 # 참고 사이트 
 https://github.com/epicarts/algorithm-study#algorithm-study
