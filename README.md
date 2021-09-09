@@ -5,34 +5,24 @@
 Python
 
 # 알고리즘 사이트
-baekjoon: https://www.acmicpc.net/
-
-programmers: https://programmers.co.kr/learn/challenges
-
-codility: https://app.codility.com/programmers/ 
-
-hackerrank: https://www.hackerrank.com/
-
-leetcode: https://leetcode.com/
-
-codeground: https://www.codeground.org/about
-
-synap: http://euler.synap.co.kr/
-
-topcoder: https://www.topcoder.com/
-
-algospot: https://algospot.com/judge/problem/list/
-
-swexpertacademy: https://www.swexpertacademy.com/main/main.do
-
-geeksforgeeks: https://www.geeksforgeeks.org/
-
-codeforces: http://codeforces.com
+- baekjoon: https://www.acmicpc.net/
+- programmers: https://programmers.co.kr/learn/challenges
+- codility: https://app.codility.com/programmers/ 
+- hackerrank: https://www.hackerrank.com/
+- leetcode: https://leetcode.com/
+- codeground: https://www.codeground.org/about
+- synap: http://euler.synap.co.kr/
+- topcoder: https://www.topcoder.com/
+- algospot: https://algospot.com/judge/problem/list/
+- swexpertacademy: https://www.swexpertacademy.com/main/main.do
+- geeksforgeeks: https://www.geeksforgeeks.org/
+- codeforces: http://codeforces.com
 
 # 폴더 구조
 - 폴더 구조는 다음과 같습니다.
 예시)
 - 사이트 폴더 - 문제 폴더 - 본인 이니셜 폴더, README.md - 소스코드, 풀이방법 파일
+```
 baekjoon/
 ├── 1417/
 | ├── README.md
@@ -45,6 +35,7 @@ baekjoon/
 │ └── ojs
 │ └── yyh
 │ └── pjy
+```
 
 사이트 폴더: 누구나 사이트를 알아볼 수 있게 영어로 작성합니다.
 예) baekjoon, programmers, codeground
