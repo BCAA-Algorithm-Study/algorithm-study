@@ -143,5 +143,34 @@ git push origin kjy_baekjoon_1417
 ```
 - 원격 저장소에 push합니다.
 
+# Study 학습 방법
+
+## Study 자료
+- `이것이 취업을 위한 코딩 테스트다`
+- 유튜브 강의 https://www.youtube.com/watch?v=m-9pAwq1o3w&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC
+
+## 목표 학습
+
+### 이론 및 문제풀이 연습
+- Day1(DFS/BFS) 124p ~ 154p
+- Day2(정렬) 156p ~ 184p
+- Day3(이진 탐색) 186p ~ 205p
+- Day4(다이나믹) 208p ~ 228p
+- Day5(최단경로) 230p ~ 264p
+- Day6(그래프이론) 266p ~ 305p
+
+### 문제 풀이
+- Day7(그리디, 구현) 311p ~ 336
+- Day8(DFS/BFS) 339p ~ 356
+- Day9(정렬, 이진 탐색) 359p ~ 371p
+- Day10(다이나믹) 375p ~ 382p
+- Day11(최단경로) 385p ~ 390p
+- Day12(그래프이론) 393p ~ 400p
+
+### Online Judge
+- Day13
+- Day14
+- Day15
+- ...
 # 참고 사이트 
 https://github.com/epicarts/algorithm-study#algorithm-study
