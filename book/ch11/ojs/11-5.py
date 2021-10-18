@@ -2,6 +2,7 @@ import sys
 from collections import defaultdict
 
 n, m =map(int,sys.stdin.readline().split())
+
 k = list(map(int, sys.stdin.readline().split()))
 
 b = defaultdict(int)
