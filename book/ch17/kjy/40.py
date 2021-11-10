@@ -28,5 +28,5 @@ while q:
 print(distance)
 maximum = max(distance[1:])
 number = distance.index(maximum)
-count = n+1-number
+count = distance.count(maximum)
 print(number, maximum, count)
