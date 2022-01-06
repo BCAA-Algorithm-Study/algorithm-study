@@ -16,20 +16,22 @@ sorted_array = sorted(sorted_array, key=lambda x: (x.split('-')[0], int(x.split(
 stack = []
 
 array = deque(array)
-print(sorted_array)
+# print(sorted_array)
 for i in range(len(sorted_array)):
     
     if not stack:
         stack.append(array.popleft())
-        print(stack, sorted_array[i], array)
+        # print(stack, sorted_array[i], array)
 
-    while stack and array:
+    while stack:
         if stack[-1] == sorted_array[i]:
             stack.pop()
             break
-        else:
+        elif array:
             stack.append(array.popleft())
-        print(stack, sorted_array[i], array)
+        elif not array:
+            break
+        # print(stack, sorted_array[i], array)
 
 if stack:
     print('BAD')
